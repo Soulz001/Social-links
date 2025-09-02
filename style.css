@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(0 0% 8%);
+}
+img {
+    margin: auto;
+    border-radius: 50%;
+}
+.card {
+    background-color: hsl(0 0% 12%);
+    color: hsl(0 0% 100%);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    display: grid;
+    gap: 1.5rem;
+    border-radius: 1rem;
+}
+
+.title {
+    display: grid;
+    gap: 1rem;
+}
+
+.name {
+    display: grid;
+    gap: 0.5rem;
+}
+.name > h2 {
+    font-size: 1.8rem;
+}
+.name > p {
+    color: hsl(75 94% 57%);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.desc {
+    font-size: 1.2rem;
+}
+ul {
+    list-style-type: none;
+    display: grid;
+    gap: 1rem;
+}
+
+ul li {
+    background-color: hsl(0 0% 20%);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
