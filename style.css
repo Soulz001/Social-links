@@ -9,6 +9,11 @@ body {
     place-items: center;
     background-color: hsl(0 0% 8%);
 }
+
+@font-face {
+    font-family: Inter;
+    src: url(font/Inter-VariableFont_slnt,wght.ttf);
+}
 img {
     margin: auto;
     border-radius: 50%;
