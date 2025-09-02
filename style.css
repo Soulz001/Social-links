@@ -54,6 +54,12 @@ ul li {
     padding: 0.5rem;
     border-radius: 0.5rem;
     font-weight: bold;
+    transition: 500ms;
+}
+
+ul li:hover {
+    background-color: hsl(75 94% 57%);
+    color: hsl(0 0% 20%);
 }
 a {
     text-decoration: none;
